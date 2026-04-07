@@ -1,0 +1,11 @@
+streamlit
+pymupdf
+easyocr
+numpy
+pillow
+openai
+scikit-learn
+nltk
+chromadb
+requests
+python-dotenv
