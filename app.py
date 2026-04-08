@@ -9,7 +9,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import nltk
 from nltk.corpus import stopwords
-import chromadb
 import requests
 import os
 from dotenv import load_dotenv
