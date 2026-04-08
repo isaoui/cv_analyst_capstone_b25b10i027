@@ -37,7 +37,7 @@ model_name = ""
 
 if is_lm_studio_online():
     client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")
-    model_name = "qwen2.5-coder-3b-instruct" # SESUAIKAN DENGAN NAMA MODEL DI LM STUDIO LU
+    model_name = "qwen2.5-coder-3b-instruct"
     st.sidebar.success("🚀 Mode: Lokal (RTX 4050)")
 else:
     try:
