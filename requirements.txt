@@ -1,11 +1,12 @@
 streamlit
 pymupdf
 easyocr
-numpy
+numpy<2.0.0
 pillow
 openai
 scikit-learn
 nltk
-chromadb
+chromadb==0.4.24
+protobuf==4.25.3
 requests
 python-dotenv
