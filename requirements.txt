@@ -6,7 +6,6 @@ pillow
 openai
 scikit-learn
 nltk
-chromadb==0.4.24
-protobuf==4.25.3
+protobuf==3.20.3
 requests
 python-dotenv
